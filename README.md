@@ -13,19 +13,6 @@
 
 ---
 
-## 📁 Project Structure
-
-```text
-LaserSprint-ESP32/
-├── firmware/          # Zdrojové kódy pro ESP32-C3 (.ino nebo PlatformIO)
-├── hardware/          # Gerber ZIP, schéma PCB, podklady pro výrobu
-├── 3d_models/         # STL soubory krabičky pro 3D tisk
-├── docs/              # Fotky z testování, schémata zapojení
-├── LICENSE            # Open-source licence (např. MIT nebo CC BY-NC-SA)
-└── README.md          # Hlavní dokumentace projektu
-
----
-
 ## 🛠️ Hardware Specification & Pinout
 
 The custom PCB uses the **ESP32-C3** module with the following pin assignments:
