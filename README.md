@@ -45,6 +45,9 @@ The easiest way to build the timing gate is to order the PCB directly via PCBWay
 ---
 
 ### 2. Required Components (Bill of Materials)
+
+![BOM](docs/20261004_163701.jpg)
+
 To complete the assembly, you only need to plug in the following off-the-shelf hardware components:
 
 | Component | Description / Specification | Direct Purchase Link |
