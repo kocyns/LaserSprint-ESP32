@@ -1,5 +1,7 @@
 # ⚡ Laser Sprint – ESP32-C3 & TF-Luna LiDAR Timing Gate
 
+![Laser Sprint Timing Gate](docs/20260928_152914.jpg)
+
 **Laser Sprint** is an open-source, ultra-low latency wireless photogate timing system designed for track & field, agility testing, and speed profiling. Powered by an ESP32-C3 microcontroller and a TF-Luna Time-of-Flight (ToF) LiDAR sensor, it calculates instant split times and transmits data directly to Garmin smartwatches via Bluetooth Low Energy (BLE).
 
 ---
