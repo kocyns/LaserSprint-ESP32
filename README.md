@@ -57,6 +57,7 @@ To complete the assembly, you only need to plug in the following off-the-shelf h
 | **LiPo Battery** | 3.7V 1000mAh (Size 803040 / ~40x30mm) | [Hadex.cz](https://www.hadex.cz/r624-akumulator-lipo-37v1000mah-803040-nabijeci-baterie-li-pol/) |
 | **BLE Antenna** | 2.4GHz 3dBi with IPEX3 connector | [Laskakit.cz](https://www.laskakit.cz/wifi-25x9mm-antena-2-4g-3db-5cm-ipex3-konektor/) |
 | **Tripod Mount** | 1/4"-20 UNC Threaded Brass Insert (Short) | [3DJake.cz](https://www.3djake.cz/cnc-kitchen/zavitova-vlozka-1-4-20-kratka-unc) |
+| **Enclosure Screws** | M2x8mm Screws for 3D Printed Case | [AliExpress](https://www.aliexpress.com/item/4001199728978.html) |
 
 ---
 
