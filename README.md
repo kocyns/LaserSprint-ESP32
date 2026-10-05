@@ -45,10 +45,13 @@ The easiest way to build the timing gate is to order the PCB directly via PCBWay
 ### 2. Required Components (Bill of Materials)
 To complete the assembly, you only need to plug in the following off-the-shelf hardware components:
 
-* 📡 **LiDAR Sensor:** [TF-Luna ToF LiDAR 8m (UART)](https://botland.cz/senzory-doby-letu/16638-laserovy-snimac-vzdalenosti-lidar-tf-luna-8-m-uart-i2c-5903351249041.html)
-* 🔋 **LiPo Battery:** [3.7V 1000mAh LiPo Battery (Size 803040 / ~40x30mm)](https://www.hadex.cz/r624-akumulator-lipo-37v1000mah-803040-nabijeci-baterie-li-pol/)
-* 📶 **BLE/WiFi Antenna:** [2.4GHz 3dBi Antenna with IPEX3 Connector](https://www.laskakit.cz/wifi-25x9mm-antena-2-4g-3db-5cm-ipex3-konektor/)
-* 🔩 **Tripod Mount Insert:** [1/4"-20 UNC Threaded Brass Insert (Short)](https://www.3djake.cz/cnc-kitchen/zavitova-vlozka-1-4-20-kratka-unc)
+| Component | Description / Specification | Direct Purchase Link |
+| :--- | :--- | :--- |
+| **Custom PCB** | Pre-assembled Laser Sprint board | [PCBWay Project](https://www.pcbway.com/project/shareproject/Laser_Sprint_5ba1c15b.html) |
+| **LiDAR Sensor** | TF-Luna ToF LiDAR 8m (UART) | [Botland.cz](https://botland.cz/senzory-doby-letu/16638-laserovy-snimac-vzdalenosti-lidar-tf-luna-8-m-uart-i2c-5903351249041.html) |
+| **LiPo Battery** | 3.7V 1000mAh (Size 803040 / ~40x30mm) | [Hadex.cz](https://www.hadex.cz/r624-akumulator-lipo-37v1000mah-803040-nabijeci-baterie-li-pol/) |
+| **BLE Antenna** | 2.4GHz 3dBi with IPEX3 connector | [Laskakit.cz](https://www.laskakit.cz/wifi-25x9mm-antena-2-4g-3db-5cm-ipex3-konektor/) |
+| **Tripod Mount** | 1/4"-20 UNC Threaded Brass Insert (Short) | [3DJake.cz](https://www.3djake.cz/cnc-kitchen/zavitova-vlozka-1-4-20-kratka-unc) |
 
 ---
 
@@ -103,8 +106,9 @@ The timing gate broadcasts its status using custom Service UUIDs structured as f
 ---
 
 ## ⌚ Garmin App Compatibility
-Download the companion **Laser Sprint** application on the Garmin Connect IQ Store to pair with one or multiple timing gates.
+Download the companion **Laser Sprint** application on the Garmin Connect IQ Store to view real-time split times and velocity measurements on your wrist:
 
+👉 **[Download Laser Sprint on Garmin Connect IQ](https://apps.garmin.com/cs-CZ/apps/ab0dfc72-5814-4e4e-b6ab-1b04906cfc66)**
 ---
 
 ## 📄 License
