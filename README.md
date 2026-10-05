@@ -42,7 +42,7 @@ The custom PCB uses the **ESP32-C3** module with the following pin assignments:
 2. Install the required dependency:
    - `Adafruit_NeoPixel` library
 3. Select board: **ESP32C3 Dev Module**.
-4. Compile and flash the code located in `/firmware/V2_1_4.ino`.
+4. Compile and flash the code located in [V2_1_4.ino](firmware/V2_1_4.ino).
 
 ---
 
