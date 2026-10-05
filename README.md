@@ -6,10 +6,10 @@
 
 ## 🌟 Key Features
 - **Garmin Smartwatch Integration:** Direct real-time split times and velocity tracking on your wrist without needing a smartphone.
-- **High-Frequency ToF LiDAR Sampling:** Uses TF-Luna LiDAR at 100 Hz with adaptive baseline distance evaluation for sub-millisecond trigger precision[cite: 3].
-- **Custom BLE Protocol (`LS_GATE`):** Dynamic 128-bit UUID broadcasting time offset, gate ID, and battery levels[cite: 3].
-- **Smart Power Management:** Deep Sleep mode with 2-second hold button wake-up/shutdown and automated 5V power gating[cite: 3].
-- **LiPo & USB-C Powered:** Onboard battery level monitoring via ADC with NeoPixel LED status feedback[cite: 3].
+- **High-Frequency ToF LiDAR Sampling:** Uses TF-Luna LiDAR at 100 Hz with adaptive baseline distance evaluation for sub-millisecond trigger precision.
+- **Custom BLE Protocol (`LS_GATE`):** Dynamic 128-bit UUID broadcasting time offset, gate ID, and battery levels.
+- **Smart Power Management:** Deep Sleep mode with 2-second hold button wake-up/shutdown and automated 5V power gating.
+- **LiPo & USB-C Powered:** Onboard battery level monitoring via ADC with NeoPixel LED status feedback.
 
 ---
 
@@ -19,12 +19,12 @@ The custom PCB uses the **ESP32-C3** module with the following pin assignments:
 
 | Function | ESP32-C3 Pin | Description |
 | :--- | :--- | :--- |
-| **TF-Luna RX** | GPIO 5 | UART receive line (115200 baud)[cite: 3] |
-| **TF-Luna TX** | GPIO 4 | UART transmit line[cite: 3] |
-| **NeoPixel LED** | GPIO 0 | WS2812B RGB status indicator[cite: 3] |
-| **Power Button** | GPIO 1 | Input with internal pull-up & deep sleep wake-up[cite: 3] |
-| **Battery ADC** | GPIO 3 | Voltage divider input for LiPo level detection[cite: 3] |
-| **5V Power Gate** | GPIO 6 | High-side power control for peripheral rail[cite: 3] |
+| **TF-Luna RX** | GPIO 5 | UART receive line (115200 baud) |
+| **TF-Luna TX** | GPIO 4 | UART transmit line |
+| **NeoPixel LED** | GPIO 0 | WS2812B RGB status indicator |
+| **Power Button** | GPIO 1 | Input with internal pull-up & deep sleep wake-up |
+| **Battery ADC** | GPIO 3 | Voltage divider input for LiPo level detection |
+| **5V Power Gate** | GPIO 6 | High-side power control for peripheral rail |
 
 > Manufacturing files (Gerber files, PCBWay project link) are available in the `/hardware` folder.
 
@@ -40,21 +40,21 @@ The custom PCB uses the **ESP32-C3** module with the following pin assignments:
 ### 2. Flashing the Firmware
 1. Open the project in **Arduino IDE** or **PlatformIO**.
 2. Install the required dependency:
-   - `Adafruit_NeoPixel` library[cite: 3]
+   - `Adafruit_NeoPixel` library
 3. Select board: **ESP32C3 Dev Module**.
-4. Compile and flash the code located in `/firmware/V2_1_4_sleep2s.ino`[cite: 3].
+4. Compile and flash the code located in `/firmware/V2_1_4_sleep2s.ino`.
 
 ---
 
 ## 📡 BLE Protocol (`LS_GATE`)
 
 The timing gate broadcasts its status using custom Service UUIDs structured as follows:
-`11111111-2222-3333-4444-555555[GateID][Active][OffsetTens][BatDigit]`[cite: 3]
+`11111111-2222-3333-4444-555555[GateID][Active][OffsetTens][BatDigit]`
 
-- **Gate ID:** Derived automatically from the last byte of the ESP32 MAC address[cite: 3].
-- **Active State:** `1` when a trigger event is detected, `0` when idle[cite: 3].
-- **Offset Tens:** Time elapsed since trigger detection (0–99 tens of milliseconds)[cite: 3].
-- **Bat Digit:** Battery level digitized from `0` (empty) to `9` (full)[cite: 3].
+- **Gate ID:** Derived automatically from the last byte of the ESP32 MAC address.
+- **Active State:** `1` when a trigger event is detected, `0` when idle.
+- **Offset Tens:** Time elapsed since trigger detection (0–99 tens of milliseconds).
+- **Bat Digit:** Battery level digitized from `0` (empty) to `9` (full).
 
 ---
 
