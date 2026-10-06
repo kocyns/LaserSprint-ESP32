@@ -46,7 +46,7 @@ The easiest way to build the timing gate is to order the PCB directly via PCBWay
 
 ### 2. Required Components (Bill of Materials)
 
-![BOM](docs/20261004_163701.jpg)
+![BOM1](docs/20260928_141218.jpg)
 
 To complete the assembly, you only need to plug in the following off-the-shelf hardware components:
 
@@ -68,6 +68,8 @@ The custom housing designed specifically for this board and component layout wit
 ---
 
 ### 4. Board Assembly & Firmware Flashing
+
+![BOM2](docs/20261004_163701.jpg)
 
 Before fitting the board into the enclosure, connect the modular peripherals and flash the ESP32-C3 firmware:
 
