@@ -69,7 +69,7 @@ The custom housing designed specifically for this board and component layout wit
 
 ### 4. Board Assembly & Firmware Flashing
 
-![BOM2](docs/20261004_163701.jpg)
+![BOM2](docs/20261004_1637012.jpg)
 
 Before fitting the board into the enclosure, connect the modular peripherals and flash the ESP32-C3 firmware:
 
