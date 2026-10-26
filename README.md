@@ -63,7 +63,7 @@ To complete the assembly, you only need to plug in the following off-the-shelf h
 
 ### 3. 3D Printed Enclosure
 The custom housing designed specifically for this board and component layout with a tripod mount is available on MakerWorld:
-👉 **[Download 3D Enclosure on MakerWorld](https://makerworld.com/en/models/3497843-laser-sprint)** *(Link coming soon)*
+👉 **[Download 3D Enclosure on MakerWorld](https://makerworld.com/en/models/3497843-laser-sprint)
 
 ---
 
