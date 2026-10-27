@@ -133,3 +133,8 @@ Download the companion **Laser Sprint** application on the Garmin Connect IQ Sto
 
 ## 📄 License
 This project is licensed under the **CC BY-NC-SA 4.0** (Creative Commons Attribution-NonCommercial-ShareAlike).
+
+---
+
+## ⚠️ Disclaimer
+The **Laser Sprint** hardware designs, firmware, and documentation are provided "as is", without warranty of any kind, express or implied. The author(s) shall not be held liable for any direct, indirect, incidental, special, or consequential damages, injuries, or component failures arising out of the use, assembly, or misuse of this project. You build, flash, and operate this device entirely at your own risk.
