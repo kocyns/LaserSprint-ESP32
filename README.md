@@ -92,7 +92,7 @@ Before fitting the board into the enclosure, connect the modular peripherals and
 
 Once the board is programmed and tested, assemble it into the 3D-printed housing:
 
-**A. Heat-Set Insert & Cartridge Prep**
+**A. Heat-Set Insert**
 1. **Threaded Insert:** Using a soldering iron, heat-set the **1/4"-20 brass insert** into the bottom tripod hole of the main body.
 
 **B. Mounting the PCB & LiDAR Bracket**
