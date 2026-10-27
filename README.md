@@ -75,7 +75,7 @@ The custom housing designed specifically for this board and component layout wit
 Before fitting the board into the enclosure, connect the modular peripherals and flash the ESP32-C3 firmware:
 
 1. **Connect Peripherals:**
-   - Plug the **TF-Luna LiDAR sensor** into the dedicated 4-pin UART header on the PCB.
+   - Plug the **TF-Luna LiDAR sensor** into the dedicated 6-pin UART header on the PCB.
    - Attach the **2.4GHz antenna** to the IPEX3 connector on the ESP32-C3 module.
    - Connect the **3.7V 1000mAh LiPo battery** to the JST battery header.
 2. **Flash the Firmware:**
