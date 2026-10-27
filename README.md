@@ -79,12 +79,13 @@ Before fitting the board into the enclosure, connect the modular peripherals and
    - Attach the **2.4GHz antenna** to the IPEX3 connector on the ESP32-C3 module.
    - Connect the **3.7V 1000mAh LiPo battery** to the JST battery header.
 2. **Flash the Firmware:**
-   - Connect the PCB to your computer using a USB-C cable.
-   - Open [`/firmware/V2_1_4.ino`](firmware/V2_1_4.ino) in **Arduino IDE** or **PlatformIO**.
-   - Select Board: **ESP32C3 Dev Module**.
-   - Ensure the `Adafruit_NeoPixel` library is installed and upload the code.
-   - *Test power-on, LiDAR response, and NeoPixel LED feedback before closing up.*
-
+   - Open the Arduino IDE and open the firmware file (`/firmware/V2_1_4.ino`). Install any required libraries (e.g., `Adafruit_NeoPixel`) if necessary.
+   - Connect the board to your PC via a USB-C cable.
+   - **Enter Bootloader Mode:** Press and hold the **BOOT1** button, then press the **RST1** button. Afterwards, release the **BOOT1** button.
+   - In the software, select **ESP32C3 Dev Module** as the board and choose the appropriate COM port.
+   - Press the **RST1** button again if needed to ensure proper connection state.
+   - Upload the program to the board. Upon a successful upload, you will see the completion message in the console.
+   - *Test power-on, LiDAR response, and NeoPixel LED feedback before final assembly.*
 ---
 
 ### 2. 3D Enclosure Assembly
