@@ -46,7 +46,7 @@ The easiest way to build the timing gate is to order the PCB directly via PCBWay
 
 ![BOM1](docs/20260928_141218.jpg)
 
-See assembly guideline: [PDF manuálu](docs/EN_assembly_laser_sprint.pdf).  
+See assembly guideline: [PDF Assembly Guide](docs/EN_assembly_laser_sprint.pdf).  
 To complete the assembly, you only need to plug in the following off-the-shelf hardware components:
 
 | Component | Description / Specification | Direct Purchase Link |
