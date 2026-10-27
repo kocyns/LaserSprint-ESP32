@@ -79,7 +79,7 @@ Before fitting the board into the enclosure, connect the modular peripherals and
    - Attach the **2.4GHz antenna** to the IPEX3 connector on the ESP32-C3 module.
    - Connect the **3.7V 1000mAh LiPo battery** to the JST battery header.
 2. **Flash the Firmware:**
-   - Open the Arduino IDE and open the firmware file (`/firmware/V2_1_4.ino`). Install any required libraries (e.g., `Adafruit_NeoPixel`) if necessary.
+   - Open the **Arduino IDE** and open the firmware file [`/firmware/V2_1_4.ino`](firmware/V2_1_4.ino). Install any required libraries (e.g., `Adafruit_NeoPixel`) if necessary.
    - Connect the board to your PC via a USB-C cable.
    - **Enter Bootloader Mode:** Press and hold the **BOOT1** button, then press the **RST1** button. Afterwards, release the **BOOT1** button.
    - In the software, select **ESP32C3 Dev Module** as the board and choose the appropriate COM port.
@@ -92,14 +92,24 @@ Before fitting the board into the enclosure, connect the modular peripherals and
 
 Once the board is programmed and tested, assemble it into the 3D-printed housing:
 
-1. **Prepare the Enclosure:**
-   - Download the STL files from **MakerWorld** *(link coming soon)* and print the enclosure.
-   - Heat-set the **1/4"-20 threaded brass insert** into the bottom tripod hole using a soldering iron or insert tool.
-2. **Final Housing Installation:**
-   - Mount the **TF-Luna LiDAR** into the front window bracket facing outward.
-   - Place the **LiPo battery** and **PCB** inside the main compartment.
-   - Position the **IPEX antenna** cleanly along the internal enclosure wall to avoid RF interference.
-   - Snap or screw the top lid closed to complete your timing gate.
+**A. Heat-Set Insert & Cartridge Prep**
+1. **Threaded Insert:** Using a soldering iron, heat-set the **1/4"-20 brass insert** into the bottom tripod hole of the main body.
+
+**B. Mounting the PCB & LiDAR Bracket**
+1. **Align & Seat PCB:** Position the PCB onto the cartridge, aligning the board with the mounting pins.
+2. **Battery Cable:** Route the battery cable through the designated bottom groove to the opposite side.
+3. **Secure PCB Fixture:** Fasten the mounting fixture onto the PCB and cartridge using **3 screws**.
+4. **Attach LiDAR Sensor:** Wrap the LiDAR cable twice around the module as shown in the manual. Place the LiDAR bracket over the sensor and secure it with **2 screws**.
+
+**C. Battery & Antenna Final Placement**
+1. **Insert Battery:** Slide the 3.7V 1000mAh LiPo battery into the bottom cartridge slot.  
+   > ⚠️ *Make sure the wires do not protrude or get pinched during insertion.*⚠️
+2. **Affix Antenna:** Stick/affix the flexible 2.4GHz antenna flat onto the top surface of the cartridge.
+
+**D. Final Housing Closure**
+1. **Slide Cartridge into Body:** Carefully slide the assembled cartridge into the main enclosure body.
+2. **Align USB-C Port:** Ensure the USB-C charging port aligns perfectly with the cutout on the rear panel.
+3. **Attach Front Cover:** Fit the front faceplate over the LiDAR optics and secure the enclosure using **4 M2x8mm screws**.
 
 ---
 
