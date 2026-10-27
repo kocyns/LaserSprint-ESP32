@@ -28,8 +28,6 @@ The custom PCB uses the **ESP32-C3** module with the following pin assignments:
 | **Battery ADC** | GPIO 3 | Voltage divider input for LiPo level detection |
 | **5V Power Gate** | GPIO 6 | High-side power control for peripheral rail |
 
-> Manufacturing files (Gerber files, PCBWay project link) are available in the `/hardware` folder.
-
 ---
 
 ## 🚀 Getting Started
