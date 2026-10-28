@@ -126,7 +126,7 @@ The timing gate broadcasts its status using custom Service UUIDs structured as f
 ## ⌚ Garmin App Compatibility
 Download the companion **Laser Sprint** application on the Garmin Connect IQ Store to view real-time split times and velocity measurements on your wrist:
 
-👉 **[Download Laser Sprint on Garmin Connect IQ](https://apps.garmin.com/cs-CZ/apps/ab0dfc72-5814-4e4e-b6ab-1b04906cfc66)**
+👉 **[Download Laser Sprint on Garmin Connect IQ](https://apps.garmin.com/apps/ab0dfc72-5814-4e4e-b6ab-1b04906cfc66)**
 ---
 
 ## 📄 License
